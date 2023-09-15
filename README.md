@@ -16,32 +16,35 @@ Prerequisites
 
 Setup
 
-    Clone the repository:
+Clone the repository:
+    
+    git clone https://github.com/vipulchandan/youtubetranscript.git
 
-git clone https://github.com/vipulchandan/youtubetranscript.git
 
-    Install dependencies for both backend and frontend:
 
-cd youtubetranscript
-cd server
-npm install
+Install dependencies for both backend and frontend:
+    
+    cd youtubetranscript
+    cd server
+    npm install
 
-cd ../client
-npm install
+    cd ../client
+    npm install
 
-    Configure the backend:
+Configure the backend:
+    
         Set your YouTube Data API key in the YOUTUBE_API_KEY field in the .env file.
         Set your MongoDB URI in the MONGO_URI field in the .env file.
 
-    Run the backend and frontend:
-
-# In the 'server' directory, start the backend server
-npm start
+Run the backend and frontend:
+ 
+ # In the 'server' directory, start the backend server
+    npm start
 
 # In the 'client' directory, start the frontend development server
-npm run dev
+    npm run dev
 
-    Access the application in your browser at http://localhost:3000.
+Access the application in your browser at http://localhost:3000.
 
 How to Use
 
