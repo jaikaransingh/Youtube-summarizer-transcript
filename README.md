@@ -13,6 +13,7 @@ Prerequisites
     Node.js (v14 or higher)
     MongoDB (installed and running)
     YouTube Data API Key
+    OpenAI Key
 
 Setup
 
